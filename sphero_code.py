@@ -1,5 +1,5 @@
 from sphero.core import Sphero
-
+import sphero.request as request
 # need to be paired already
 s = Sphero()
 s.connect()
